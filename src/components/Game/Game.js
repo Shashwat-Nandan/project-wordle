@@ -24,7 +24,7 @@ function Game() {
 }
   return (
     <>
-      <GuessHistory guessList={guessList} setGuessList={setGuessList}/>
+      <GuessHistory guessList={guessList} />
       <GuessInput guess={guess} setGuess={setGuess} handleSubmit={handleSubmit}/>
     </>
    
